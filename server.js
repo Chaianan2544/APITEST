@@ -16,7 +16,7 @@ const subscriberRoute = require('./routes/subscribers')
 app.use('/subsribers', subscriberRoute)
 
 app.get("/", (req, res) => {
-    res.send("Hello Node.js REST API Server DoneSDSDW!");
+    res.send("Test");
   });
 
 app.listen(3000, () => console.log('Server Started'))
